@@ -1,0 +1,188 @@
+
+@import url(https://db.onlinewebfonts.com/c/1c8b876ce4910bf5cee6a5d7363544fc?family=Nud+Motoya+Maru);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_style{
+    background: #fff;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+}
+
+navbar-brand image{
+    width: 80px;
+    height: 50px;
+}
+
+.navbar-nav li a{
+    color: gray;
+    font-size: 14px;
+    position: relative;
+}
+
+/* .navbar-nav li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 3%;
+    background: #ff0066;
+    transition: all 0.3s linear;
+
+}
+
+.navbar-nav li a:hover:before{
+
+    width: 80%;
+} */
+
+.header_text{
+    font-size: 26px;
+    color: #3a3a36;
+    margin-top: 80px;
+    font-family: 'Nud Motoya Maru';
+}
+
+.header_text2{
+    font-size: 18px;
+    color: gray;
+   
+}
+
+.boxed-btn3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 32px;
+    text-align: center;
+    border: none;
+    margin-left:6px;
+    background-size: 100% 100%;
+    border-radius: 50px;
+    background-size: 101% 100%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+
+.boxed-btn3, .boxed-btn3-text:hover, .footer .footer_top .footer_widget .newsletter_form button, .footer .socail_links ul li a:hover {
+    background: #a20578;
+    background: -moz-linear-gradient(left, #a20578 0%, #ff6357 100%);
+    background: -webkit-linear-gradient(left, #a20578 0%, #ff6357 100%);
+    background: linear-gradient(to right, #a20578 0%, #ff6357 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff008c', endColorstr='#ff6357',GradientType=1 );
+}
+
+.btn-danger {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: rgba(217, 83, 78, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(217, 83, 78, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    margin:auto;
+    display:block;
+  }
+  
+  .btn-danger:hover {
+    color: #FFF;
+    background: rgba(217, 83, 78, 0.75);
+    border: 2px solid rgba(217, 83, 78, 0.75);
+  }
+
+  .btn-secondary {
+    color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 35px;
+  border: 8px solid rgba(248, 249, 250, 0.75);
+  }
+
+.fifthDiv{
+  width: 100% !important;
+  background-color: #F2F5FA !important;
+  margin-top:10%;
+}
+
+.thirdDiv{
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
+  background-color: #F2F5F9;
+  padding:6%;
+  border-radius:10px;
+}
+
+.fDivRowClass{
+  margin-bottom: 8% !important;
+}
+
+.crd-4{
+  border: solid #d9d9d9 1px;
+  border-radius: 4px;
+  padding:16px;
+  width: 80%;
+  position: relative;
+  height:100%;
+}
+
+.crd-4-img{
+  position: absolute;
+  left:-10px;
+  top:-20px;
+}
+
+.ftr-btn{
+  background: linear-gradient(to right,#DB3662,#FD5355) !important;
+  border-radius: 40px;
+}
+
+.ftr-3{
+  background-color: #EEF1F6;
+}
+
+.ftr-4{
+  background-color: #272A2B !important;
+}
+
+.spanClass{
+  background-color: #F5F8FB !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 20px;
+  margin-left:20px;
+}
+
+.card{
+	padding:6%;
+	border:solid 0px;
+	width:100%;
+	height:100%;
+}
+
+.card-title{
+	font-weight:bold;
+	color:#595959;
+}
+.pClass{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 70% !important;
+}
+img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
